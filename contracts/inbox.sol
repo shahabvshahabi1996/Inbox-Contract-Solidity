@@ -12,5 +12,5 @@ contract Inbox {
     function setMessage(string newMassage) public {
         message = newMassage;
     }
-sdasd
+
 }

@@ -24,8 +24,7 @@ describe("Inbox",()=>{
     });
 
     it('has a default message', async() => {
-         var message = await inbox.methods.message().call();
+         const message = await inbox.methods.message().call();
          assert.equal(message,'Hi there!');
-
     })
 })
